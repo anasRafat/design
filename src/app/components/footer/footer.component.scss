@@ -1,0 +1,41 @@
+@import'../../../assets/colors';
+
+
+.footer{
+  background-color: $background;
+
+
+  .logo{
+    width: 111px;
+    height: 111px;
+  }
+
+  .icon{
+    width: 47px;
+    height: 47px;
+    background-color: #E5E5E5;
+
+    .img_icon{
+      width: 29px;
+      height: 29px;
+    }
+  }
+  .hide{
+    display: none;
+  }
+}
+@media (min-width:0px) and (max-width: 775px) {
+  .footer{
+    justify-content: center !important;
+  }
+  .mobile_mode{
+    display: none !important;
+  }
+  .hide{
+    display: block !important;
+  }
+  .centr{
+
+    align-items: center !important;
+  }
+}
